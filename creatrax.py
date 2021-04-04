@@ -8,7 +8,10 @@ def calcTotalTax(arr,n):
             f=int(i)
             k.append(f)
     print(sum(k)-sum(arr))
-    # num = input ("Enter number :")
+    
+#TESTING
+# n=5
+# arr=[1000,2000,3000,4000,5000]
 n=input("ENTER size of tax ")
 arr=list(map(int,input().split()))
 calcTotalTax(arr,n)
